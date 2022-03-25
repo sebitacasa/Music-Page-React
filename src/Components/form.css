@@ -1,0 +1,295 @@
+.bodyF{
+   
+
+    
+    background: url("../images/form 2.jpg"); 
+    background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+  overflow-x: hidden;
+  text-decoration: none;
+    
+   
+}
+
+.bodyF:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    width: 100%;
+   
+  
+    background-color: rgba(0, 0, 0, 0.5);
+  } 
+
+
+.div-formo{
+    overflow: hidden;
+    display: flex;
+    justify-content:center;
+    position: relative;
+    flex-direction: column;
+    height:100vh;
+    width: auto;
+
+    top: 5px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    
+    
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+
+.footero{
+    width: 80%;
+    height: auto;
+    
+
+}
+
+
+.btn-backo{
+     /* display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    align-self: flex-start;
+    margin-bottom: 250px;
+    margin-right: auto;
+    text-decoration: none; 
+     margin-right: 100%; */
+
+     margin-right: 100%;
+     
+     margin-bottom: 250px;
+    padding-left: 5px;
+    padding-top: 15px;  
+    
+    
+}
+
+button{
+    text-decoration: none;
+}
+
+
+
+.btn-detailso{
+    background: greenyellow;
+    color: black;
+    cursor: pointer;
+    font-size: 35px;
+    transition: 0.5s;
+    width: 250px;
+    height: 65px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.btn-detailso:hover{
+    background-color: black;
+    color: greenyellow;
+}
+
+.footero{
+     
+    /* width: 100% ;
+    height: 100vh;
+    background-position: center;
+   
+    background: url("../images/form 2.jpg"); 
+    
+    background-attachment: fixed;
+    background-size: cover;  */
+    
+    /* width:100% ;
+    height: 100vh;
+    background: url("../images/form 2.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover; */
+    
+    
+    
+}
+
+
+
+.footero .dag-footer{
+    position: absolute;
+   width: 100%;
+   height: 100%;
+   z-index: 100;
+    
+}
+
+.footer .ejeZfootero{
+    position: absolute;
+    width: 80%;
+    height: 100%;
+    padding-bottom: 100px;
+    margin-left: 10%;
+    
+}
+
+.footer .footer-contento{
+    width: 90%;
+    padding-top: 100px;
+    margin: auto;
+
+}
+
+.footero .footer-contento .footer-tittleo{
+    width: 25%;
+    margin: auto;
+    border: 2px solid greenyellow;
+    background: greenyellow;
+    margin-top: 120px;
+    
+    
+}
+
+.footero .footer-contento .footer-tittleo h2{
+    width: 50%;
+    margin: 8px auto;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 28px;
+    font-weight: bolder;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif    
+    
+    
+}
+
+.footero.footer-contento .footer-tittleo hr{
+    width: 80%;
+    margin: auto;
+
+}
+
+
+.footero .footer-contento .formulario-contento{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 480px;
+    
+    border: 2px solid greenyellow;
+    margin: 85px auto;
+   
+}
+
+.footero .footer-contento .formulario-contento #formulario{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.footero .footer-contento .formulario-contento #formulario label{
+    text-align: center;
+    color: greenyellow;
+    font-size: 25px;
+    margin: 23px 0 10px 0;
+    
+}
+
+.footero .footer-contento .formulario-contento #formulario input{
+    width:90%;
+    height:35px ;
+    margin: auto;
+    border: 2px solid greenyellow;
+    outline: none;
+    
+    color: black;
+}
+
+.footero .footer-contento .formulario-contento #formulario textarea{
+    width: 90%;
+    height: 100px;
+    margin: auto;
+    
+    outline: none;
+    color: black;
+    border: 2px solid greenyellow;
+}
+
+.footero .footer-contento .formulario-contento #formulario .send{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.footero .footer-contento .formulario-contento #formulario button{
+    width:70px ;
+    height: 30px;
+    background: rgb(141, 233, 4) ;
+    
+    border: none;
+    outline: none;
+    font-size: 18px;
+    font-weight: bolder;
+    color:rgb(8, 0, 0);
+    
+    text-align: center;
+    cursor: pointer;
+    transition: 0.5s;
+    margin-top: 15px;
+}
+
+.footero .footer-contento .formulario-contento #formulario button:hover{
+    background:black;
+    color: chartreuse;
+
+}
+
+.footero .footer-contento .formulario-contento #formulario .mensaje-form{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    margin-top: 15px;
+    color: greenyellow;
+    font-size: 20px;
+    font-weight: bolder;
+    background: black;
+}
+
+.footer-texto{
+    position: absolute;
+   
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background: rgb(153, 253, 4);
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+   
+} 
+
+.errors{
+    color: rgb(241, 8, 8);
+    
+    display: flex;
+    
+    padding: 10px 15px 10px 15px;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-top: 10px;
+    margin-left: 23px;
+   }
